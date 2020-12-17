@@ -2,7 +2,7 @@
 
 form {
     margin: 0 auto;
-    width: 50%;
+    width: 75%;
 }
 
 h1 {
@@ -24,6 +24,8 @@ figcaption {
 
 th, td {
     text-align: center;
+    max-width: 100%;
+    white-space: nowrap;
 }
 
 th {
