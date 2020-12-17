@@ -18,6 +18,10 @@ figure {
     display: inline;
 }
 
+figcaption {
+    text-align: center;
+}
+
 th, td {
     text-align: center;
 }
@@ -27,3 +31,6 @@ th {
     font-weight: bold;
 }
 
+input.right {
+    float: right;
+}

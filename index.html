@@ -21,8 +21,9 @@
         <form>
             <!-- use table to organize layout of products -->
             <table>
+
+                <!-- table row for product images -->
                 <tr>
-                    <!-- product images -->
                     <th>상품</th>
 
                         <!-- apple -->
@@ -58,10 +59,44 @@
                         </td>
 
                 </tr>
+
+                <!-- table row for price -->
+                <tr>
+                    <th>가격</th>
+
+                    <!-- apple price-->
+                    <td>1000원</td>
+
+                    <!-- orange price-->
+                    <td>1500원</td>
+
+                    <!-- banana price-->
+                    <td>3000원</td>
+
+                    <!-- watermelon price-->
+                    <td>3000원</td>
+                </tr>
+
+                <!-- table row for quantity -->
+                <tr>
+                    <th>수량</th>
+
+                    <!-- apple quantity -->
+                    <td><input type="number" id="quantities" name="apple_q"></td>
+
+                    <!-- orange quantity -->
+                    <td><input type="number" id="quantities" name="orange_q"></td>
+
+                    <!-- banana quantity -->
+                    <td><input type="number" id="quantities" name="banana_q"></td>
+
+                    <!-- watermelon quantity -->
+                    <td><input type="number" id="quantities" name="watermelon_q"></td>
+                </tr>
             </table>
 
             <!-- submit button used as an order button -->
-            <input type="submit" value="구매">
+            <input type="submit" value="구매" class="right">
         </form>
     </body>
 </html>
