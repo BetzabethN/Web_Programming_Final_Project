@@ -1,5 +1,6 @@
 // NARVAEZ BETZABETH 2018106117
 
+//DID NOT WORK T-T
 //get values of inputs and put into variables
 
 //var f_submit = document.getElementById("first_submit")
