@@ -50,10 +50,11 @@ th {
 */
 
 .form_boxes {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 150px;
     display: inline;
     border: 1px solid black;
     float: left;
+    text-align: center;
 }
 
