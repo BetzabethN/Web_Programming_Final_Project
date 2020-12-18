@@ -49,8 +49,9 @@ th {
 }
 */
 
-.form-boxes {
-    width: 35%;
+.form_boxes {
+    width: 350px;
+    height: 350px;
     display: inline;
     border: 1px solid black;
 }
