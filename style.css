@@ -57,3 +57,8 @@ th {
     text-align: center;
 }
 
+.form_b {
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+}
