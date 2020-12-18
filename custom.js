@@ -18,4 +18,18 @@
 
 //}
 
+var apple_qu = document.getElementById("apple_q").value;
+var orange_qu = document.getElementById("orange_q").value;
 
+function mouseDown(e) {
+    e = e || window.event;
+    switch (e.which) {
+        case 1:
+            apple_qu = applq + 1;
+            break;
+        case 2: break;
+        case 3:
+            apple_qu = apple_qu - 1;
+            break;
+    }
+}
