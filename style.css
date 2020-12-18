@@ -6,6 +6,11 @@ form, input.right {
     width: 75%;
 }
 
+input.right {
+    align-self: right;
+    margin: 0 auto;
+}
+
 h1, h2 {
     text-align: center;
 }
@@ -39,3 +44,8 @@ th {
     float: right;
 }
 */
+
+.form-boxes {
+    width: 35%;
+    display: inline;
+}
