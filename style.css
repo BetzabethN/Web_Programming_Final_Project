@@ -48,4 +48,5 @@ th {
 .form-boxes {
     width: 35%;
     display: inline;
+    border: 1px solid black;
 }
