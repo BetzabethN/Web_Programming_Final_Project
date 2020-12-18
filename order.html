@@ -15,6 +15,74 @@
     </head>
 
     <body>
-        
+        <h1>Betzy's Shop</h1>
+
+        <!-- form for ordering -->
+        <form method="POST" action="order_confirmation.html">
+
+            <!-- order price table-->
+            <div>
+                <h2>구매 가격</h2>
+                <table>
+                    <!-- apple total price -->
+                    <tr>
+                        <th>사과</th>
+                        <td>00</td>
+                    </tr>
+                    
+                    <!-- orange total price -->
+                    <tr>
+                        <th>오렌지</th>
+                        <td>00</td>
+                    </tr>
+
+                    <!-- banana total price -->
+                    <tr>
+                        <th>바나나</th>
+                        <td>00</td>
+                    </tr>
+
+                    <!-- watermelon total price -->
+                    <tr>
+                        <th>수박</th>
+                        <td>00</td>
+                    </tr>
+                </table>
+            </div>
+            
+
+            <!-- order payment -->
+            <div>
+                <h2>구매 방법</h2>
+                <div>
+                    <input type="radio" id="card" name="payment" value="card">
+                    <label for="card">카드결제</label><br>
+
+                    <input type="radio" id="transfer" name="payment" value="transfer">
+                    <label for="transfer">계좌이체</label><br>
+
+                    <input type="radio" id="phone" name="payment" value="phone">
+                    <label for="phone">휴대폰결제</label><br>
+
+                    <input type="radio" id="deposit" name="payment" value="deposit">
+                    <label for="deposit">무통장입금</label>
+                </div>
+            </div>
+
+            <!-- order information -->
+            <div>
+                <h2>구매자 정보</h2>
+                <div>
+                    <label for="name">이름:</label><input type="text" id="name" name="name"><br>
+                    <label for="s_id">학번:</label><input type="number" id="s_id" name="s_id">
+                </div>
+            </div>
+
+            <!-- division for going back or paying -->
+            <div>
+                <input type="button" value="이전" onclick="history.back()">
+                <input type="submit" value="결제">
+            </div>
+        </form>
     </body>
 </html>

@@ -1,11 +1,12 @@
 /* NARVAEZ BETZABETH 2018106117 */
 
-form {
+form, input.right {
+    align-self: center;
     margin: 0 auto;
     width: 75%;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
@@ -33,6 +34,8 @@ th {
     font-weight: bold;
 }
 
-input.right {
+/*input.right {
+    display: block;
     float: right;
 }
+*/
