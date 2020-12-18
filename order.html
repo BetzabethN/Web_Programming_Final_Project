@@ -67,7 +67,7 @@
                     <input type="radio" id="deposit" name="payment" value="deposit">
                     <label for="deposit">무통장입금</label>
                 </div>
-            </div>
+            </div> <br>
 
             <!-- order information -->
             <div class="form_boxes">
@@ -87,10 +87,10 @@
 
         <!-- javascript -->
         <script>
-            var o_apple = localStorage["apple_qu"];
-            var o_orange = localStorage["orange_qu"];
-            var o_banana = localStorage["banana_qu"];
-            var o_watermelon = localStorage["watermelon_qu"];
+            var o_apple = localStorage.getItem('apple_qu');
+            var o_orange = localStorage.getItem('orange_qu');
+            var o_banana = localStorage.getItem('banana_qu');
+            var o_watermelon = localStorage.getItem('watermelon_qu');
         </script>
     </body>
 </html>

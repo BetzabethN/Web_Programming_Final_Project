@@ -17,7 +17,7 @@
         <h1>Betzy's Shop</h1>
         
         <!-- form for produce selection -->
-        <form name="selection" method="POST">
+        <form name="selection" method="GET">
             <!-- use table to organize layout of products -->
             <table>
 
@@ -100,10 +100,10 @@
 
         <!-- javascript -->
         <script>
-            localStorage["apple_qu"] = document.getElementById("apple_q").value;
-            localStorage["orange_qu"] = document.getElementById("orange_q").value;
-            localStorage["banana_qu"] = document.getElementById("banana_q").value;
-            localStorage["watermelon_qu"] = document.getElementById("watermelon_q").value;
+            localStorage.setItem('apple_qu', document.getElementById("apple_q").value)
+            localStorage.setItem('orange_q', document.getElementById("orange_q").value)
+            localStorage.setItem('banana_q', document.getElementById("banana_q").value)
+            localStorage.setItem('watermelon_q', document.getElementById("watermelon_q").value)
         </script>
     </body>
 </html>
