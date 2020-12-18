@@ -18,7 +18,7 @@
         <h1>Betzy's Shop</h1>
 
         <!-- form for ordering -->
-        <form name="order-form">
+        <form name="order-form" method="GET" action="order_confirmation.html">
 
             <!-- order price table-->
             <div class="form_boxes">
@@ -82,8 +82,8 @@
 
             <!-- division for going back or paying -->
             <div class="form_boxes" style="border: none;">
-                <input type="submit" value="결제" onclick="location.href='order_confirmation.html';">
                 <input type="button" value="이전" onclick="history.back()">
+                <input type="submit" value="결제">
             </div>
         </form>
 
