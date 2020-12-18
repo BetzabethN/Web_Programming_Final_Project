@@ -26,10 +26,12 @@ function mouseDown_apple(e) {
     switch (e.which) {
         case 1:
             apple_qu = applq + 1;
+            document.getElementById("apple_q").innerHTML = apple_qu;
             break;
         case 2: break;
         case 3:
             apple_qu = apple_qu - 1;
+            document.getElementById("apple_q").innerHTML = apple_qu;
             break;
     }
 }
@@ -39,10 +41,12 @@ function mouseDown_orange(e) {
     switch (e.which) {
         case 1:
             orange_qu = orange_qu + 1;
+            document.getElementById("orang_q").innerHTML = orange_qu;
             break;
         case 2: break;
         case 3:
             orange_qu = orange_qu - 1;
+            document.getElementById("orang_q").innerHTML = orange_qu;
             break;
     }
 }
