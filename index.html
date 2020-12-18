@@ -9,9 +9,8 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- links to stylesheet and javascript -->
+        <!-- links to stylesheet -->
         <link rel="stylesheet" href="style.css">
-        <script src="custom.js"></script>
     </head>
 
     <body>
@@ -96,7 +95,15 @@
             </table>
 
             <!-- submit button used as an order button -->
-            <input type="button" value="구매" class="right" id="first_submit" onclick="location.href='order.html';">
+            <input type="button" value="구매" class="right" onclick="location.href='order.html';">
         </form>
+
+        <!-- javascript -->
+        <script>
+            localStorage["apple_qu"] = document.getElementById("apple_q").value;
+            localStorage["orange_qu"] = document.getElementById("orange_q").value;
+            localStorage["banana_qu"] = document.getElementById("banana_q").value;
+            localStorage["watermelon_qu"] = document.getElementById("watermelon_q").value;
+        </script>
     </body>
 </html>

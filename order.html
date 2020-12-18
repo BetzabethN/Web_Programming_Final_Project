@@ -18,7 +18,7 @@
         <h1>Betzy's Shop</h1>
 
         <!-- form for ordering -->
-        <form name="order-form" method="POST" action="order_confirmation.html">
+        <form name="order-form">
 
             <!-- order price table-->
             <div class="form_boxes">
@@ -27,25 +27,25 @@
                     <!-- apple total price -->
                     <tr>
                         <th>사과</th>
-                        <td><span id="o_apple"></span></td>
+                        <td><script>document.write(o_apple)</script></td>
                     </tr>
                     
                     <!-- orange total price -->
                     <tr>
                         <th>오렌지</th>
-                        <td><span id="o_orange"></span></td>
+                        <td><script>document.write(o_orange)</script></td>
                     </tr>
 
                     <!-- banana total price -->
                     <tr>
                         <th>바나나</th>
-                        <td><span id="o_banana"></span></td>
+                        <td><script>document.write(o_banana)</script></td>
                     </tr>
 
                     <!-- watermelon total price -->
                     <tr>
                         <th>수박</th>
-                        <td><span id="o_watermelon"></span></td>
+                        <td><script>document.write(o_watermelon)</script></td>
                     </tr>
                 </table>
             </div>
@@ -80,9 +80,17 @@
 
             <!-- division for going back or paying -->
             <div>
-                <input type="submit" class="right" value="결제">
+                <input type="submit" class="right" value="결제" onclick="location.href='order_confirmation.html';">
                 <input type="button" class="right" value="이전" onclick="history.back()">
             </div>
         </form>
+
+        <!-- javascript -->
+        <script>
+            var o_apple = localStorage["apple_qu"];
+            var o_orange = localStorage["orange_qu"];
+            var o_banana = localStorage["banana_qu"];
+            var o_watermelon = localStorage["watermelon_qu"];
+        </script>
     </body>
 </html>
